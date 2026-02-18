@@ -4367,6 +4367,26 @@ form textarea:required:valid {
   }
 
 }
+/* ===== FINAL SCROLL FIX ===== */
+
+@media only screen and (min-width: 992px) {
+
+  .inner,
+  .inner.inner-first {
+    padding: 60px 0 !important;
+  }
+
+  .content__block,
+  .content__block.block-large,
+  .content__block.block-grid-large {
+    margin-bottom: 60px !important;
+  }
+
+  .main {
+    height: auto !important;
+  }
+
+}
 
 
 }
