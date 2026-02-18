@@ -4327,6 +4327,20 @@ form textarea:required:valid {
   font-size: 13px;
 }
 
+.portfolio-card {
+  background: #ffffff;
+  border-radius: 24px;
+  transition: 0.3s ease;
+  height: 100%;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-6px);
+}
+
+.portfolio-card video {
+  display: block;
+}
 
 }
 
