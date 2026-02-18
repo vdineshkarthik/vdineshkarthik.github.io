@@ -4342,6 +4342,33 @@ form textarea:required:valid {
   display: block;
 }
 
+  /* ===== SCROLL LENGTH FIX ===== */
+
+@media only screen and (min-width: 992px) {
+
+  .main {
+    height: auto !important;
+    padding: 80px 0 !important;
+  }
+
+  .avatar {
+    height: auto !important;
+    position: relative !important;
+  }
+
+  .inner,
+  .inner.inner-first {
+    padding: 80px 0 !important;
+  }
+
+  .content__block.block-large,
+  .content__block.block-grid-large {
+    margin-bottom: 60px !important;
+  }
+
+}
+
+
 }
 
 /* ------------------------------------------------*/
