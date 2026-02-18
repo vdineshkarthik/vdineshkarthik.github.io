@@ -4281,51 +4281,63 @@ form textarea:required:valid {
 
 /* ===== PORTFOLIO VIDEO GRID ===== */
 
-..portfolio-row {
-  row-gap: 40px;
+/* ===== CLEAN PORTFOLIO GRID ===== */
+
+.portfolio-section {
+  padding-top: 60px;
 }
 
 .portfolio-card {
-  background: #ffffff;
-  border-radius: 28px;
-  padding: 20px;
-  box-shadow: 0 25px 60px rgba(0,0,0,0.25);
-  height: 100%;
+  background: #f3f3f3;
+  border-radius: 22px;
+  padding: 18px;
   transition: 0.3s ease;
+  height: 100%;
 }
 
 .portfolio-card:hover {
-  transform: translateY(-6px);
+  transform: translateY(-5px);
 }
 
 .video-wrapper {
-  border-radius: 20px;
+  border-radius: 16px;
   overflow: hidden;
+  margin-bottom: 18px;
 }
 
 .video-wrapper video {
   width: 100%;
+  height: 260px;
+  object-fit: cover;
   display: block;
-  border-radius: 20px;
 }
 
-.portfolio-info {
-  margin-top: 15px;
+.portfolio-info h5 {
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #222;
 }
 
 .portfolio-tags {
   display: flex;
   gap: 10px;
-  margin-top: 8px;
+  flex-wrap: wrap;
 }
 
 .portfolio-tags span {
   background: #111;
   color: #fff;
   padding: 6px 14px;
-  border-radius: 20px;
   font-size: 12px;
+  border-radius: 20px;
 }
+
+/* Fix spacing between rows */
+.row.g-4 {
+  --bs-gutter-x: 24px;
+  --bs-gutter-y: 24px;
+}
+
 
 
 }
