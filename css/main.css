@@ -4290,7 +4290,8 @@ form textarea:required:valid {
 .portfolio-video {
   width: 100%;
   height: 100%;
-  object-fit: contain; /* keeps full video visible */
+ object-fit: cover;
+ /* keeps full video visible */
   border-radius: var(--_radius-lg);
   background: #ffffff;
 }
