@@ -4273,34 +4273,23 @@ form textarea:required:valid {
   .no-touch .socials-square__link:hover i {
     text-shadow: 0 -5rem var(--t-bright), 0 0 var(--t-bright);
   }
-  /* ===== VIDEO FIX FOR PORTFOLIO ===== */
-/* ===== PORTFOLIO VIDEO CARD FIX ===== */
-
-/* ===== CLEAN VIDEO CARD MATCH ===== */
-
-.gallery__item video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* fills like image */
-  border-radius: var(--_radius-xl);
-  display: block;
-}
+ /* ===== PORTFOLIO VIDEO CARD FIX ===== */
 
 .gallery__item {
-  overflow: hidden;
-  border-radius: var(--_radius-xl);
-}
-
-.portfolio-video {
-  width: 100%;
-  height: 100%;
- object-fit: cover;
- /* keeps full video visible */
-  border-radius: var(--_radius-lg);
   background: #ffffff;
+  border-radius: var(--_radius-xl);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-
+.gallery__item video {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: var(--_radius-lg);
+  display: block;
+}
 
 
 }
