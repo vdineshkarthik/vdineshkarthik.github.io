@@ -4343,6 +4343,26 @@ form textarea:required:valid {
 }
 
 }
+/* FIX OVERLAP ISSUE */
+section {
+    position: relative;
+    z-index: 1;
+}
+
+.content__wrapper {
+    overflow: hidden;
+}
+
+.portfolio-card {
+    background: var(--card-bg);
+    border-radius: 24px;
+}
+
+video {
+    display: block;
+    max-width: 100%;
+}
+
 
 }
 /* ------------------------------------------------*/
