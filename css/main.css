@@ -4273,6 +4273,13 @@ form textarea:required:valid {
   .no-touch .socials-square__link:hover i {
     text-shadow: 0 -5rem var(--t-bright), 0 0 var(--t-bright);
   }
+  video.gallery__image {
+  opacity: 1 !important;
+  position: relative !important;
+  width: 100%;
+  height: auto;
+}
+
 }
 
 /* ------------------------------------------------*/
