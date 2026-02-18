@@ -4341,25 +4341,7 @@ form textarea:required:valid {
 .portfolio-card video {
   display: block;
 }
-/* ===== FIX AVATAR MOVING ISSUE ===== */
 
-@media only screen and (min-width: 992px) {
-
-  .avatar {
-    position: sticky !important;
-    top: 2rem;
-    height: fit-content !important;
-  }
-
-  .avatar__container {
-    height: auto !important;
-  }
-
-  .content {
-    margin-left: 350px !important;
-  }
-
-}
 
 }
 
