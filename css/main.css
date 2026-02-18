@@ -4281,8 +4281,8 @@ form textarea:required:valid {
 
 /* ===== PORTFOLIO VIDEO GRID ===== */
 
-.portfolio-section {
-  padding: 80px 0;
+..portfolio-row {
+  row-gap: 40px;
 }
 
 .portfolio-card {
@@ -4290,12 +4290,12 @@ form textarea:required:valid {
   border-radius: 28px;
   padding: 20px;
   box-shadow: 0 25px 60px rgba(0,0,0,0.25);
-  transition: 0.3s ease;
   height: 100%;
+  transition: 0.3s ease;
 }
 
 .portfolio-card:hover {
-  transform: translateY(-8px);
+  transform: translateY(-6px);
 }
 
 .video-wrapper {
@@ -4305,40 +4305,26 @@ form textarea:required:valid {
 
 .video-wrapper video {
   width: 100%;
-  height: auto;
   display: block;
   border-radius: 20px;
 }
 
-/* Text Section */
 .portfolio-info {
-  margin-top: 18px;
-}
-
-.portfolio-info h5 {
-  font-weight: 600;
-  margin-bottom: 10px;
-  color: #111;
+  margin-top: 15px;
 }
 
 .portfolio-tags {
   display: flex;
   gap: 10px;
-  margin-bottom: 12px;
-  flex-wrap: wrap;
+  margin-top: 8px;
 }
 
 .portfolio-tags span {
   background: #111;
   color: #fff;
   padding: 6px 14px;
-  border-radius: 30px;
+  border-radius: 20px;
   font-size: 12px;
-}
-
-.portfolio-info p {
-  font-size: 14px;
-  color: #555;
 }
 
 
