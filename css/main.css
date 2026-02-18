@@ -4274,23 +4274,25 @@ form textarea:required:valid {
     text-shadow: 0 -5rem var(--t-bright), 0 0 var(--t-bright);
   }
   /* ===== VIDEO FIX FOR PORTFOLIO ===== */
-
-/* ===== PREMIUM PORTFOLIO VIDEO STYLE ===== */
+/* ===== PORTFOLIO VIDEO CARD FIX ===== */
 
 .gallery__media {
-  width: 100%;
-  height: 400px;
-  overflow: hidden;
+  background: #ffffff; /* white background */
   border-radius: var(--_radius-xl);
-  position: relative;
+  overflow: hidden;
+  padding: 15px; /* white space around video */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
 }
 
 .portfolio-video {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  display: block;
-  border-radius: var(--_radius-xl);
+  object-fit: contain; /* keeps full video visible */
+  border-radius: var(--_radius-lg);
+  background: #ffffff;
 }
 
 
