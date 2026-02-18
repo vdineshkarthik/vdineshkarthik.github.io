@@ -4275,23 +4275,35 @@ form textarea:required:valid {
   }
  /* ===== PORTFOLIO VIDEO CARD FIX ===== */
 
-.gallery__item {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
+/* ===============================
+   CLEAN PORTFOLIO VIDEO STYLE
+================================= */
 
 .video-wrapper {
-  width: 100%;
-  border-radius: var(--_radius-xl);
-  overflow: hidden;
+  background: #ffffff;
+  padding: 18px;
+  border-radius: 25px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease;
+}
+
+.video-wrapper:hover {
+  transform: translateY(-5px);
 }
 
 .video-wrapper video {
   width: 100%;
+  height: auto;
   display: block;
-  border-radius: var(--_radius-xl);
+  border-radius: 18px;
 }
+
+/* spacing between boxes */
+.my-gallery {
+  row-gap: 40px;
+  column-gap: 30px;
+}
+
 
 
 }
